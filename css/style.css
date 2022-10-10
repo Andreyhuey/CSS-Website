@@ -1,0 +1,199 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Roboto-Bold"
+    src: url(../fonts/Roboto-Bold.ttf) format("truetype");
+    font-weight:bolder;
+}
+@font-face {
+  font-family: "Roboto-LightItalic";
+  src: url(../fonts/Roboto-LightItalic.tff) format("truetype");
+  font-weight: lighter;
+  font-style: italic;
+}
+body {
+  font-family: "Roboto", san-serif;
+}
+header {
+  background-color: #1f2937;
+  padding: 5px 75px 20px 75px;
+}
+header > nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-between;
+}
+header > nav > h2 {
+  font-size: 24px;
+  margin-left: 115px;
+}
+.logo-link {
+  text-decoration: none;
+  color: white;
+}
+header > nav > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 85px;
+}
+header > nav > ul > li {
+  list-style-type: none;
+  padding: 0px 10px 0px 10px;
+}
+header > nav > ul > li > a {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+}
+/* hero section */
+.hero {
+  display: flex;
+  flex-direction: row;
+  padding: 155px 95px;
+}
+.hero > div {
+  margin: 0px 0px 0px 20px;
+  padding-top: -120px;
+  flex: 1;
+}
+.hero > div > h1 {
+    font-family: "Roboto-Bold", Arial; 
+    font-weight:750;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+  
+}
+.hero > div > summary {
+  margin-top: -22px;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.hero > div > button {
+  background-color: #3882f6;
+  border-radius: 5px;
+  margin-top: 8px;
+  padding: 5px 29px;
+  border: 1px solid #3882f6;
+}
+.hero > div > button > a {
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+.placeholder {
+  background-color: #e5e7eb56;
+  color: white;
+  margin-left: 80px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+/* information */
+#information {
+  margin: 15px 15px;
+  padding: 20px;
+}
+#information > h2 {
+    font-family: "Roboto-Bold", Arial; 
+    font-weight:750;
+    font-size: 36px;
+    color: #1f2937;
+    text-align: center;
+}
+.product {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px 50px 0px;
+  margin: 30px 220px;
+}
+.product > div {
+  text-align: center;
+  margin: 0px -10px;
+}
+.product > div > figure {
+  border: 3px solid #3882f6;
+  border-radius: 9px;
+  height: 140px;
+  width: 140px;
+}
+.product > div > figcaption {
+  color: #45484c;
+  margin: 0px 39px;
+  max-width: 145px;
+}
+/* quote */
+#quote {
+  background-color: #e5e7eb;
+  margin: 15px 0px;
+  padding: 100px 250px;
+}
+#quote > blockquote {
+  font-family: "Roboto-LightItalic", san-serif;
+  font-style:italic;
+  font-weight:ligher;
+  font-size: 36px;
+  color: #1f2937;
+}
+#quote > p {
+  text-align: right;
+  margin-right:70px;
+  font-size: 22px;
+  font-weight: 900;
+}
+/* call to action */
+#call-to-action {
+  margin: 50px 0px;
+  padding: 10px 150px;
+  color: white;
+}
+#call-to-action > div {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3882f6;
+  border-radius: 4px;
+  padding: 50px 120px;
+  margin: 50px 25px;
+}
+.call-hero {
+  font-weight: bolder;
+  font-size: 25px;
+}
+.call-text {
+  margin-top: -1px;
+  color: #e5e7eb;
+  font-weight: lighter;
+}
+#call-to-action > div > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#call-to-action > div > div > button {
+  background-color: #3882f6;
+  border-radius: 5px;
+  padding: 5px 29px;
+  border: 1px solid white;
+}
+#call-to-action > div > div > button > a {
+    font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+/* footer section */
+footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  text-align: center;
+  padding: 3px;
+}

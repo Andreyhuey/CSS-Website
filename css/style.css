@@ -88,7 +88,7 @@ header > nav > ul > li > a {
   color: white;
 }
 .placeholder {
-  background-color: #e5e7eb56;
+  /* background-color: #e5e7eb56; */
   color: white;
   margin-left: 80px;
   padding: 30px;
@@ -122,6 +122,9 @@ header > nav > ul > li > a {
   margin: 0px -10px;
 }
 .product > div > figure {
+  display:flex;
+  align-items:center;
+  justify-content:center;
   border: 3px solid #3882f6;
   border-radius: 9px;
   height: 140px;
